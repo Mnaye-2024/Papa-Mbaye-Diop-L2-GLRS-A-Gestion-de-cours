@@ -13,7 +13,6 @@ public class Professeur {
         this.matiere = matiere;
     }
 
-    // Getters and setters
     public int getId() {
         return id;
     }
