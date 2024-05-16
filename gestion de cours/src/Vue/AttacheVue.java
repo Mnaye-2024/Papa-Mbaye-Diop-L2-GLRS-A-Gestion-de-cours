@@ -19,7 +19,6 @@ public class AttacheVue {
         String nom = scanner.nextLine();
         System.out.print("Prénom : ");
         String prenom = scanner.nextLine();
-        // Ajoutez d'autres informations à saisir si nécessaire
         return new Etudiant(nom, prenom);
     }
 
