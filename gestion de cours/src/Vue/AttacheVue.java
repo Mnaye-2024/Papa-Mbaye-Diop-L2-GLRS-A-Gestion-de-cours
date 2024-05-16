@@ -37,7 +37,6 @@ public class AttacheVue {
         String heureDebut = scanner.nextLine();
         System.out.print("Heure de fin (HH:MM) : ");
         String heureFin = scanner.nextLine();
-        // Ajoutez d'autres informations à saisir si nécessaire
         return new SessionCours(date, heureDebut, heureFin);
     }
 
