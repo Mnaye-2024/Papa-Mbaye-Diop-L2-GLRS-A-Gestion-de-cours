@@ -17,7 +17,7 @@ public class App {
         while (continuer) {
             afficherMenu();
             int choix = scanner.nextInt();
-            scanner.nextLine(); // Clear the buffer
+            scanner.nextLine(); 
             
             switch (choix) {
                 case 1:
