@@ -16,7 +16,6 @@ public class Etudiant {
     public Etudiant(String nom2, String prenom2) {
     }
 
-    // Getters and setters
     public String getNom() {
         return nom;
     }
