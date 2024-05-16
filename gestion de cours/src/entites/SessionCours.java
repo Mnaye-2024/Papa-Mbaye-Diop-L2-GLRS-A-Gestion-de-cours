@@ -16,7 +16,6 @@ public class SessionCours {
         this.salle = salle;
     }
 
-    // Ajoutez les getters et setters pour accéder aux attributs
 
     public SessionCours(String date2, String heureDebut2, String heureFin2) {
     }
