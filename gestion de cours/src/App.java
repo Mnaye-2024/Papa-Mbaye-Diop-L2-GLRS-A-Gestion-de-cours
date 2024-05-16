@@ -79,7 +79,7 @@ public class App {
         System.out.println("\nCréer un cours :");
         System.out.print("ID du cours : ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // Clear the buffer
+        scanner.nextLine();
         System.out.print("Date (YYYY-MM-DD) : ");
         String dateStr = scanner.nextLine();
         LocalDate date = LocalDate.parse(dateStr);
